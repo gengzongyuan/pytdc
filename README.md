@@ -1,4 +1,5 @@
 
+```
 dc = DataCreate()
 # 生成imei
 # print(dc.getImei())
@@ -12,3 +13,4 @@ dc = DataCreate()
 # dc.createImage(file_name='500_600素材',file_path='D:\it\pythondemo\pytdc\lib\image',width=500,height=600)
 # 批量写入信息，imei,idfa,phone,idcard
 dc.writeToFile(10000,'idfa',isMd5=True)
+```
